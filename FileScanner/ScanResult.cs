@@ -12,7 +12,7 @@ internal class ScanResult
 
     public override string ToString()
     {
-        return "Filename " + FileName + ": " + " Contains " + ResultType + ": " + Value + Environment.NewLine;
+        return "Filename " + FileName + Environment.NewLine + " Contains " + ResultType + ": " + Value + Environment.NewLine + Environment.NewLine;
     }
 
 }
